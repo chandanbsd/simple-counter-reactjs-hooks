@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const App = () => {
   const [counter, setCounter] = useState(0);
   return (
-    <div className="bg-sky-800	">
+    <div>
       <h1 className="text-5xl text-slate-50 text-center pt-10 decoration-2	">
         Counter Application
       </h1>
