@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/simple-counter-reactjs-hooks/static/css/main.aaf090d0.css",
-    "main.js": "/simple-counter-reactjs-hooks/static/js/main.fc0455f7.js",
+    "main.css": "/simple-counter-reactjs-hooks/static/css/main.57199295.css",
+    "main.js": "/simple-counter-reactjs-hooks/static/js/main.4bd1b038.js",
     "index.html": "/simple-counter-reactjs-hooks/index.html",
-    "main.aaf090d0.css.map": "/simple-counter-reactjs-hooks/static/css/main.aaf090d0.css.map",
-    "main.fc0455f7.js.map": "/simple-counter-reactjs-hooks/static/js/main.fc0455f7.js.map"
+    "main.57199295.css.map": "/simple-counter-reactjs-hooks/static/css/main.57199295.css.map",
+    "main.4bd1b038.js.map": "/simple-counter-reactjs-hooks/static/js/main.4bd1b038.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaf090d0.css",
-    "static/js/main.fc0455f7.js"
+    "static/css/main.57199295.css",
+    "static/js/main.4bd1b038.js"
   ]
 }
