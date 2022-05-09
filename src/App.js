@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const App = () => {
   const [counter, setCounter] = useState(0);
   return (
-    <div className="bg-sky-800	">
+    <div>
       <h1 className="text-5xl text-slate-50 text-center pt-10 decoration-2	">
         Counter Application
       </h1>
@@ -11,10 +11,9 @@ const App = () => {
         Counter Value = {counter}
       </h3>
       <button
-        className="flex w-64 w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-5 m-10"
-        onClick={() => {
-          setCounter(counter + 1);
-        }}
+        className="flex w-64 max-w-xs w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-5 m-10"
+        onClick={() => setCounter(counter + 1)}
+
       >
         <div className="col-span-1 pt-1.5"> Increment </div>
         <div className="col-span-2 ">
@@ -61,7 +60,7 @@ const App = () => {
         </div>
       </button>
       <button
-        className="flex w-64  w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-5 mt-10"
+        className="flex w-64 max-w-xs  w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-5 mt-10"
         onClick={() => setCounter(0)}
       >
         <div className="col-span-1 pt-1.5"> Reset </div>
