@@ -34,7 +34,11 @@ const App = () => {
       </button>
       <button
         className="flex w-64 max-w-xs w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-5"
-        onClick={() => setCounter(counter - 1)}
+        onClick={() =>
+          counter <= 0
+            ? alert("Count Value Cannot Be Negative")
+            : setCounter(counter - 1)
+        }
       >
         <div className="col-span-1 pt-1.5"> Decrement </div>
         <div className="col-span-2 ">
